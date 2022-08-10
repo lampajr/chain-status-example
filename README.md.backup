@@ -18,6 +18,6 @@ In this section we provide the steps that we performed in order to integrate the
 2. Create a Markdown file containing information on the project for which you would like to provide the PRs statuses. I created it [here](.ci/chain-status-info.md), under `.ci` folder since it will be used by the Github workflow that we will create later.
 3. Create the definition file containing the whole project structure for which we want to provide information, in this case we won't create it but we will refer to the one already present [here](https://raw.githubusercontent.com/kiegroup/kogito-pipelines/main/.ci/pull-request-config.yaml).
     - [Optional] If you need to create your own definition file, you can find more details on how to create it in [build-chain-configuration-reader](https://github.com/kiegroup/build-chain-configuration-reader) project.
-4. Create the workflows that aim to automate the Github page generation using the already provided `chain-status` actions ([more details](https://github.com/kiegroup/chain-status)).
+4. Create the workflows that aim to automate the Github page generation using the already provided `chain-status` actions ([more details]()).
     1. Generate webpage: the first workflow is in charge to create the webpage content and save it in our `gh-pages` branch.
     2. Generate content: the second workflow generates the content/report that will be showed by the react webapge.
