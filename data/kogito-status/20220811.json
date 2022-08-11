@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Kogito Status",
     "subtitle": "Kiegroup organization repositories CI Status",
-    "date": "2022-08-11T14:29:58.974Z",
+    "date": "2022-08-11T14:31:29.024Z",
     "createdBy": "Github Action",
     "createdUrl": "https://github.com/lampajr/chain-status-example/actions/runs/2840554370"
   },
@@ -2201,7 +2201,7 @@
             }
           ],
           "created_at": "2022-08-11T13:32:50Z",
-          "updated_at": "2022-08-11T14:29:01Z",
+          "updated_at": "2022-08-11T14:30:48Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
