@@ -2,9 +2,9 @@
   "metadata": {
     "title": "Optaplanner Status with Branches Comparison",
     "subtitle": "Kiegroup RHBOP repositories CI Status",
-    "date": "2022-11-14T11:27:37.686Z",
+    "date": "2022-11-14T13:04:16.492Z",
     "createdBy": "Github Action",
-    "createdUrl": "https://github.com/lampajr/chain-status-example/actions/runs/3461050939"
+    "createdUrl": "https://github.com/lampajr/chain-status-example/actions/runs/3461700746"
   },
   "projects": [
     {
@@ -27,15 +27,9 @@
           "state": "open",
           "labels": [],
           "draft": false,
-          "requested_reviewers": [
-            {
-              "login": "radtriste",
-              "avatar_url": "https://avatars.githubusercontent.com/u/17157711?v=4",
-              "html_url": "https://github.com/radtriste"
-            }
-          ],
+          "requested_reviewers": [],
           "created_at": "2022-11-14T08:50:25Z",
-          "updated_at": "2022-11-14T10:35:45Z",
+          "updated_at": "2022-11-14T12:46:47Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
@@ -45,7 +39,7 @@
           },
           "head": {
             "ref": "bump-1.30.x-quarkus-2.7.6.Final",
-            "sha": "0c8b5eb8ea50be9d9b2148cdc24444b99885c37e",
+            "sha": "8653eb91b03eed94e3e4e9c17abec410c5babb84",
             "label": "kiegroup:bump-1.30.x-quarkus-2.7.6.Final"
           },
           "user": {
@@ -55,97 +49,97 @@
           },
           "checks": [
             {
-              "id": 9470186978,
-              "name": "ubuntu-latest - Java 11 - Maven",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3460298999/jobs/5776696932",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2022-11-14T09:52:45Z",
-              "completed_at": "2022-11-14T10:21:08Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 9470186748,
+              "id": 9473183804,
               "name": "windows-latest - Java 11 - Maven",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3460298994/jobs/5776696756",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461414855/jobs/5778993301",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2022-11-14T09:52:12Z",
-              "completed_at": "2022-11-14T10:41:41Z",
+              "started_at": "2022-11-14T12:20:10Z",
+              "completed_at": "2022-11-14T12:51:27Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 9470186549,
+              "id": 9473183603,
               "name": "ubuntu-latest - Java 11 - Maven",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3460298994/jobs/5776696596",
-              "status": "completed",
-              "conclusion": "cancelled",
-              "started_at": "2022-11-14T09:51:51Z",
-              "completed_at": "2022-11-14T09:51:51Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 9470186535,
-              "name": "ubuntu-latest - Java 11 - Maven",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3460298997/jobs/5776696582",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461414852/jobs/5778993157",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2022-11-14T09:52:07Z",
-              "completed_at": "2022-11-14T10:10:29Z",
+              "started_at": "2022-11-14T12:19:58Z",
+              "completed_at": "2022-11-14T12:43:12Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 9470186522,
+              "id": 9473183587,
               "name": "ubuntu-latest - Java 11 - Maven",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3460298992/jobs/5776696575",
-              "status": "in_progress",
-              "conclusion": null,
-              "started_at": "2022-11-14T09:52:36Z",
-              "completed_at": null,
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461414855/jobs/5778993156",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2022-11-14T12:19:57Z",
+              "completed_at": "2022-11-14T12:42:45Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 20147273036,
+              "id": 9473183586,
+              "name": "ubuntu-latest - Java 11 - Maven",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461414854/jobs/5778993148",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2022-11-14T12:19:58Z",
+              "completed_at": "2022-11-14T12:32:23Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 9473183583,
+              "name": "ubuntu-latest - Java 11 - Maven",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461414851/jobs/5778993142",
+              "status": "completed",
+              "conclusion": "success",
+              "started_at": "2022-11-14T12:20:09Z",
+              "completed_at": "2022-11-14T12:58:37Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 20149248320,
               "name": "(build) drools",
-              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/KIE/job/kogito/job/1.30.x/job/pullrequest/job/drools.tests.drools/10/display/redirect",
-              "conclusion": "failure",
-              "started_at": "2022-11-14T10:35:48Z",
-              "completed_at": "2022-11-14T10:35:48Z",
+              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/KIE/job/kogito/job/1.30.x/job/pullrequest/job/drools.tests.drools/12/display/redirect",
+              "conclusion": "success",
+              "started_at": "2022-11-14T12:30:55Z",
+              "completed_at": "2022-11-14T12:30:55Z",
               "slug": true,
               "avatar_url": "https://avatars.githubusercontent.com/u/11995863?v=4"
             },
             {
-              "id": 20147308425,
+              "id": 20149387873,
               "name": "(build) kogito-runtimes",
-              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/KIE/job/kogito/job/1.30.x/job/pullrequest/job/drools.tests.downstream.kogito-runtimes/10/display/redirect",
+              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/KIE/job/kogito/job/1.30.x/job/pullrequest/job/drools.tests.downstream.kogito-runtimes/11/display/redirect",
               "conclusion": "success",
-              "started_at": "2022-11-14T10:37:54Z",
-              "completed_at": "2022-11-14T10:37:54Z",
+              "started_at": "2022-11-14T12:39:06Z",
+              "completed_at": "2022-11-14T12:39:06Z",
               "slug": true,
               "avatar_url": "https://avatars.githubusercontent.com/u/11995863?v=4"
             },
             {
-              "id": 20147379358,
+              "id": 20149469276,
               "name": "(build) kogito-apps",
-              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/KIE/job/kogito/job/1.30.x/job/pullrequest/job/drools.tests.downstream.kogito-apps/10/display/redirect",
+              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/KIE/job/kogito/job/1.30.x/job/pullrequest/job/drools.tests.downstream.kogito-apps/11/display/redirect",
               "conclusion": "success",
-              "started_at": "2022-11-14T10:41:49Z",
-              "completed_at": "2022-11-14T10:41:49Z",
+              "started_at": "2022-11-14T12:43:52Z",
+              "completed_at": "2022-11-14T12:43:52Z",
               "slug": true,
               "avatar_url": "https://avatars.githubusercontent.com/u/11995863?v=4"
             },
             {
-              "id": 20147456787,
+              "id": 20149494616,
               "name": "(build) kogito-examples",
-              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/KIE/job/kogito/job/1.30.x/job/pullrequest/job/drools.tests.downstream.kogito-examples/11/display/redirect",
+              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/KIE/job/kogito/job/1.30.x/job/pullrequest/job/drools.tests.downstream.kogito-examples/12/display/redirect",
               "conclusion": "success",
-              "started_at": "2022-11-14T10:46:08Z",
-              "completed_at": "2022-11-14T10:46:08Z",
+              "started_at": "2022-11-14T12:45:27Z",
+              "completed_at": "2022-11-14T12:45:27Z",
               "slug": true,
               "avatar_url": "https://avatars.githubusercontent.com/u/11995863?v=4"
             }
@@ -160,20 +154,31 @@
           "labels": [
             "dsl-test"
           ],
-          "draft": true,
-          "requested_reviewers": [],
+          "draft": false,
+          "requested_reviewers": [
+            {
+              "login": "ricardozanini",
+              "avatar_url": "https://avatars.githubusercontent.com/u/1538000?v=4",
+              "html_url": "https://github.com/ricardozanini"
+            },
+            {
+              "login": "Ginxo",
+              "avatar_url": "https://avatars.githubusercontent.com/u/25130444?v=4",
+              "html_url": "https://github.com/Ginxo"
+            }
+          ],
           "created_at": "2022-11-10T15:16:18Z",
-          "updated_at": "2022-11-10T17:17:40Z",
+          "updated_at": "2022-11-14T12:54:25Z",
           "closed_at": null,
           "merged_at": null,
           "base": {
             "ref": "main",
-            "sha": "514b623ac7de094f98cff03e9e269f8d769846f1",
+            "sha": "e8ba59acf93f7010755630f1062e126c16abc84a",
             "label": "kiegroup:main"
           },
           "head": {
             "ref": "test_parallel_examples_build",
-            "sha": "fc8ca7f033a78cbb33fe95647969e5e9a82040e3",
+            "sha": "6f0ce036f436cbf53b79065951cd323ceab5600d",
             "label": "radtriste:test_parallel_examples_build"
           },
           "user": {
@@ -183,185 +188,180 @@
           },
           "checks": [
             {
-              "id": 9468820387,
-              "name": "ubuntu-latest - Java 11 - Maven",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3438201147/jobs/5775630388",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2022-11-14T08:43:11Z",
-              "completed_at": "2022-11-14T09:26:51Z",
+              "id": 9473797745,
+              "name": "ubuntu-latest - Java 11 - serverless-workflow-examples",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461623884/jobs/5779464740",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2022-11-14T12:52:26Z",
+              "completed_at": null,
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 9468820236,
+              "id": 9473797557,
+              "name": "ubuntu-latest - Java 11 - kogito-springboot-examples",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461623884/jobs/5779464602",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2022-11-14T12:52:14Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 9473797466,
               "name": "windows-latest - Java 11 - Maven",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3438201147/jobs/5775630280",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461623888/jobs/5779464527",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2022-11-14T12:52:28Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 9473797320,
+              "name": "ubuntu-latest - Java 11 - kogito-quarkus-examples",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461623884/jobs/5779464401",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2022-11-14T12:52:24Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 9473797278,
+              "name": "ubuntu-latest - Java 11 - Maven",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461623880/jobs/5779464367",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2022-11-14T12:52:25Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 9473797271,
+              "name": "ubuntu-latest - Java 11 - Maven",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461623888/jobs/5779464358",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2022-11-14T12:52:11Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 9473797159,
+              "name": "ubuntu-latest - Java 11 - Maven",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461623871/jobs/5779464278",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2022-11-14T12:52:25Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 9473789702,
+              "name": "ubuntu-latest - Java 11 - serverless-workflow-examples",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461621233/jobs/5779458699",
               "status": "completed",
               "conclusion": "cancelled",
-              "started_at": "2022-11-14T08:43:05Z",
-              "completed_at": "2022-11-14T08:43:05Z",
+              "started_at": "2022-11-14T12:52:00Z",
+              "completed_at": "2022-11-14T12:52:19Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 9417743264,
-              "name": "SonarCloud Code Analysis",
-              "html_url": "https://github.com/kiegroup/drools/runs/9417743264",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2022-11-10T16:47:10Z",
-              "completed_at": "2022-11-10T16:54:40Z",
-              "slug": "sonarcloud",
-              "avatar_url": "https://avatars.githubusercontent.com/u/545988?v=4"
-            },
-            {
-              "id": 9417611856,
-              "name": "SonarCloud",
-              "html_url": "https://github.com/kiegroup/drools/runs/9417611856",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2022-11-10T16:48:44Z",
-              "completed_at": "2022-11-10T16:48:45Z",
-              "slug": "github-code-scanning",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 9415985889,
-              "name": "ubuntu-latest - Java 11 - serverless-workflow-examples",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3438201145/jobs/5733957774",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2022-11-10T15:42:34Z",
-              "completed_at": "2022-11-10T16:51:06Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 9415985684,
+              "id": 9473789503,
               "name": "ubuntu-latest - Java 11 - kogito-springboot-examples",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3438201145/jobs/5733957625",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461621233/jobs/5779458552",
               "status": "completed",
-              "conclusion": "success",
-              "started_at": "2022-11-10T15:46:38Z",
-              "completed_at": "2022-11-10T16:31:26Z",
+              "conclusion": "cancelled",
+              "started_at": "2022-11-14T12:51:59Z",
+              "completed_at": "2022-11-14T12:52:05Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 9415985663,
+              "id": 9473789421,
+              "name": "windows-latest - Java 11 - Maven",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461621238/jobs/5779458470",
+              "status": "completed",
+              "conclusion": "cancelled",
+              "started_at": "2022-11-14T12:51:57Z",
+              "completed_at": "2022-11-14T12:52:05Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+            },
+            {
+              "id": 9473789378,
               "name": "ubuntu-latest - Java 11 - Maven",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3438201163/jobs/5733957620",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461621256/jobs/5779458444",
               "status": "completed",
-              "conclusion": "success",
-              "started_at": "2022-11-10T15:39:51Z",
-              "completed_at": "2022-11-10T15:54:27Z",
+              "conclusion": "cancelled",
+              "started_at": "2022-11-14T12:51:47Z",
+              "completed_at": "2022-11-14T12:52:17Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 9415985543,
-              "name": "ubuntu-latest - Java 11 - Maven",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3438201157/jobs/5733957534",
-              "status": "completed",
-              "conclusion": "success",
-              "started_at": "2022-11-10T15:48:24Z",
-              "completed_at": "2022-11-10T17:09:59Z",
-              "slug": "github-actions",
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
-            },
-            {
-              "id": 9415985421,
+              "id": 9473789365,
               "name": "dsl-tests",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3438201151/jobs/5733957446",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461621241/jobs/5779458433",
               "status": "completed",
               "conclusion": "success",
-              "started_at": "2022-11-10T15:39:32Z",
-              "completed_at": "2022-11-10T15:42:43Z",
+              "started_at": "2022-11-14T12:52:02Z",
+              "completed_at": "2022-11-14T12:54:16Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 9415985392,
+              "id": 9473789289,
               "name": "ubuntu-latest - Java 11 - kogito-quarkus-examples",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3438201145/jobs/5733957422",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461621233/jobs/5779458371",
               "status": "completed",
-              "conclusion": "success",
-              "started_at": "2022-11-10T15:44:08Z",
-              "completed_at": "2022-11-10T16:57:54Z",
+              "conclusion": "cancelled",
+              "started_at": "2022-11-14T12:52:00Z",
+              "completed_at": "2022-11-14T12:52:18Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 9415985294,
+              "id": 9473789212,
               "name": "ubuntu-latest - Java 11 - Maven",
-              "html_url": "https://github.com/kiegroup/drools/actions/runs/3438201158/jobs/5733957338",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461621237/jobs/5779458349",
               "status": "completed",
-              "conclusion": "success",
-              "started_at": "2022-11-10T15:43:07Z",
-              "completed_at": "2022-11-10T16:46:04Z",
+              "conclusion": "cancelled",
+              "started_at": "2022-11-14T12:51:59Z",
+              "completed_at": "2022-11-14T12:52:18Z",
               "slug": "github-actions",
               "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 20109635649,
-              "name": "(build) kogito-springboot-examples",
-              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/custom/job/tradisso/job/test_parallel_examples_build/job/test_parallel_examples_build/job/pullrequest/job/drools.tests.downstream.kogito-springboot-examples/3/display/redirect",
-              "conclusion": "success",
-              "started_at": "2022-11-10T16:23:37Z",
-              "completed_at": "2022-11-10T16:23:37Z",
-              "slug": true,
-              "avatar_url": "https://avatars.githubusercontent.com/u/11995863?v=4"
+              "id": 9473789150,
+              "name": "ubuntu-latest - Java 11 - Maven",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461621238/jobs/5779458261",
+              "status": "completed",
+              "conclusion": "cancelled",
+              "started_at": "2022-11-14T12:52:03Z",
+              "completed_at": "2022-11-14T12:52:04Z",
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             },
             {
-              "id": 20109883861,
-              "name": "(build) serverless-workflow-examples",
-              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/custom/job/tradisso/job/test_parallel_examples_build/job/test_parallel_examples_build/job/pullrequest/job/drools.tests.downstream.serverless-workflow-examples/1/display/redirect",
-              "conclusion": "success",
-              "started_at": "2022-11-10T16:33:45Z",
-              "completed_at": "2022-11-10T16:33:45Z",
-              "slug": true,
-              "avatar_url": "https://avatars.githubusercontent.com/u/11995863?v=4"
-            },
-            {
-              "id": 20110041163,
-              "name": "(build) kogito-runtimes",
-              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/custom/job/tradisso/job/test_parallel_examples_build/job/test_parallel_examples_build/job/pullrequest/job/drools.tests.downstream.kogito-runtimes/3/display/redirect",
-              "conclusion": "success",
-              "started_at": "2022-11-10T16:40:29Z",
-              "completed_at": "2022-11-10T16:40:29Z",
-              "slug": true,
-              "avatar_url": "https://avatars.githubusercontent.com/u/11995863?v=4"
-            },
-            {
-              "id": 20110062152,
-              "name": "(build) kogito-quarkus-examples",
-              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/custom/job/tradisso/job/test_parallel_examples_build/job/test_parallel_examples_build/job/pullrequest/job/drools.tests.downstream.kogito-quarkus-examples/3/display/redirect",
-              "conclusion": "success",
-              "started_at": "2022-11-10T16:41:22Z",
-              "completed_at": "2022-11-10T16:41:22Z",
-              "slug": true,
-              "avatar_url": "https://avatars.githubusercontent.com/u/11995863?v=4"
-            },
-            {
-              "id": 20110372729,
-              "name": "(build) drools",
-              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/custom/job/tradisso/job/test_parallel_examples_build/job/test_parallel_examples_build/job/pullrequest/job/drools.tests.drools/3/display/redirect",
-              "conclusion": "success",
-              "started_at": "2022-11-10T16:54:43Z",
-              "completed_at": "2022-11-10T16:54:43Z",
-              "slug": true,
-              "avatar_url": "https://avatars.githubusercontent.com/u/11995863?v=4"
-            },
-            {
-              "id": 20110929401,
-              "name": "(build) kogito-apps",
-              "html_url": "https://eng-jenkins-csb-business-automation.apps.ocp-c1.prod.psi.redhat.com/job/custom/job/tradisso/job/test_parallel_examples_build/job/test_parallel_examples_build/job/pullrequest/job/drools.tests.downstream.kogito-apps/3/display/redirect",
-              "conclusion": "failure",
-              "started_at": "2022-11-10T17:18:06Z",
-              "completed_at": "2022-11-10T17:18:06Z",
-              "slug": true,
-              "avatar_url": "https://avatars.githubusercontent.com/u/11995863?v=4"
+              "id": 9473789073,
+              "name": "ubuntu-latest - Java 11 - Maven",
+              "html_url": "https://github.com/kiegroup/drools/actions/runs/3461621227/jobs/5779458203",
+              "status": "in_progress",
+              "conclusion": null,
+              "started_at": "2022-11-14T12:51:45Z",
+              "completed_at": null,
+              "slug": "github-actions",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
             }
           ]
         },
