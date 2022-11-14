@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate status page data with projects list
         # uses the already provided chain-status action for content generation purpose
-        uses: lampajr/chain-status/.ci/actions/generate-data@ISSUE-33_projects_list
+        uses: lampajr/chain-status/.ci/actions/generate-data@main
         with:
           projects: kiegroup/drools,kiegroup/kogito-runtimes,kiegroup/optaplanner
           title: Restricted Kogito Status
