@@ -5,6 +5,12 @@
       "name": "Kogito Status",
       "folder": "kogito-status",
       "date": 1668425256293
+    },
+    {
+      "id": "optaplanner-status-with-branches-comparison",
+      "name": "Optaplanner Status with Branches Comparison",
+      "folder": "optaplanner-status-with-branches-comparison",
+      "date": 1668425259636
     }
   ]
 }
