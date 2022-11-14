@@ -50,7 +50,6 @@ jobs:
           definition-file: https://raw.githubusercontent.com/kiegroup/optaplanner/main/.ci/pull-request-config-rhbop.yaml
           title: Optaplanner Status with Branches Comparison
           subtitle: Kiegroup RHBOP repositories CI Status
-          base-branch-filter: main,8.29.x,8.30.x
           created-by: Github Action
           created-url: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
           logger-level: debug
