@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Generate status page
         # uses the already provided chain-status action for app generation purpose
-        uses: lampajr/chain-status/.ci/actions/generate-app@issue_44_branch_comparison
+        uses: lampajr/chain-status/.ci/actions/generate-app@main
         with:
           info-md-url: "https://raw.githubusercontent.com/lampajr/chain-status-example/main/.ci/chain-status-info.md"
           github-token: "${{ secrets.GITHUB_TOKEN }}"
