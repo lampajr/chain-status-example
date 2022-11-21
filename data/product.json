@@ -11,6 +11,12 @@
       "name": "Optaplanner Status with Branches Comparison",
       "folder": "optaplanner-status-with-branches-comparison",
       "date": 1668431059213
+    },
+    {
+      "id": "kiegroup-status",
+      "name": "Kiegroup Status",
+      "folder": "kiegroup-status",
+      "date": 1669020898525
     }
   ]
 }
