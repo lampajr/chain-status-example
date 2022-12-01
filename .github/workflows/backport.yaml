@@ -57,3 +57,4 @@ jobs:
           reviewers: |
             lampajr
             ${{ github.event.pull_request.user.login }}
+          cherry-pick-branch: "${{ github.event.pull_request.head.ref }}_${{ env.RELEASE_BRANCH }}"
