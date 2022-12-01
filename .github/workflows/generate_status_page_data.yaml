@@ -56,7 +56,7 @@ jobs:
       #     branches: main,8.29.x,8.30.x
       #     github-token: "${{ secrets.GITHUB_TOKEN }}"
 
-      - name: Generate status page data
+      - name: Generate status page data with comparison
         uses: kiegroup/chain-status/.ci/actions/generate-data@main
         with:
           definition-file: https://raw.githubusercontent.com/kiegroup/droolsjbpm-build-bootstrap/main/.ci/pull-request-config.yaml
