@@ -1,6 +1,6 @@
 # Chain Status Example
 
-This project is an example of how the [chain-status](https://github.com/kiegroup/chain-status) tool can be integrate in any project.
+This project is an example of how the [chain-status](https://github.com/kiegroup/chain-status) tool can be integrate in a generic project.
 
 For example purpose only, this project aims to provide the Pull Requests statuses for [Kogito-related](https://github.com/kiegroup/kogito-pipelines) projects.
 
