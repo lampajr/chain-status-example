@@ -23,7 +23,6 @@ jobs:
         uses: lampajr/droolsjbpm-build-bootstrap/.ci/actions/parse-labels@BAPL-2339
         with:
           labels: ${LABELS}
-  
   backporting:
     if: ${{ github.event.pull_request.state == 'closed' && github.event.pull_request.merged && needs.compute-targets.outputs.target-branches && needs.compute-targets.outputs.target-branches != '[]' }}
     name: "[${{ matrix.target-branch }}] - Backporting"
@@ -33,8 +32,11 @@ jobs:
       matrix: 
         target-branch: ${{ fromJSON(needs.compute-targets.outputs.target-branches) }}
       fail-fast: true
+    env:
+      REVIEWERS: ${{ toJSON(github.event.pull_request.requested_reviewers) }}
     steps:
       - name: Backporting
-        uses: lampajr/droolsjbpm-build-bootstrap/.ci/actions/backporting@BAPL-2339
+        uses: lampajr/droolsjbpm-build-bootstrap/.ci/actions/parse-labels@BAPL-2339_improvement
         with:
           target-branch: ${{ matrix.target-branch }}
+          additional-reviewers: ${REVIEWERS}
