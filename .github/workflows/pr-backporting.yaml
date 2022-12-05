@@ -35,6 +35,6 @@ jobs:
       fail-fast: true
     steps:
       - name: Backporting
-        uses: lampajr/droolsjbpm-build-bootstrap/.ci/actions/backporting@BAPL-2339
+        uses: carloscastrojumo/github-cherry-pick-action@v1.0.5
         with:
           target-branch: ${{ matrix.target-branch }}
