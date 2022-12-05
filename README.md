@@ -6,7 +6,7 @@ For example purpose only, this project aims to provide the Pull Requests statuse
 
 ## Chain Status Integration
 
-In this section we will provide the steps that we performed in order to integrate the `chain-status` tool in this custom repository.
+In this section we provide the steps that we performed in order to integrate the `chain-status` tool in this custom repository.
 
 1. Create a custom branch named `gh-pages` storing the webpage content that will be served on the personal Github page.
     - [Optional] If you want to create an empty branch for this purpose, execute the following commands:
