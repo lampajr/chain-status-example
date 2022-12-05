@@ -36,7 +36,7 @@ jobs:
       REVIEWERS: ${{ toJSON(github.event.pull_request.requested_reviewers) }}
     steps:
       - name: Backporting
-        uses: lampajr/droolsjbpm-build-bootstrap/.ci/actions/parse-labels@BAPL-2339_improvement
+        uses: lampajr/droolsjbpm-build-bootstrap/.ci/actions/backporting@BAPL-2339_improvement
         with:
           target-branch: ${{ matrix.target-branch }}
           additional-reviewers: ${REVIEWERS}
