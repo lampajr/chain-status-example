@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Set target branches
         id: set-targets
-        uses: lampajr/droolsjbpm-build-bootstrap/.ci/actions/parse-labels@BAPL-2339
+        uses: lampajr/kogito-pipelines/.ci/actions/parse-labels@main
         with:
           labels: ${LABELS}
   backporting:
@@ -32,11 +32,8 @@ jobs:
       matrix: 
         target-branch: ${{ fromJSON(needs.compute-targets.outputs.target-branches) }}
       fail-fast: true
-    env:
-      REVIEWERS: ${{ toJSON(github.event.pull_request.requested_reviewers) }}
     steps:
       - name: Backporting
-        uses: lampajr/droolsjbpm-build-bootstrap/.ci/actions/backporting@BAPL-2339_improvement
+        uses: lampajr/kogito-pipelines/.ci/actions/backporting@BXMSPROD-1936
         with:
           target-branch: ${{ matrix.target-branch }}
-          additional-reviewers: ${REVIEWERS}
